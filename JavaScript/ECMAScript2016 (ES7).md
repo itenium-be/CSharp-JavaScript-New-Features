@@ -1,6 +1,4 @@
-# ECMAScript2016 (ES7)
-
-## Exponentiation operator
+# Exponentiation operator
 
 ```js
 let squared = 2 ** 3;
@@ -10,7 +8,7 @@ let squared = Math.pow(2, 3);
 squared **= 2;
 ```
 
-## Array.prototype.includes
+# Array.prototype.includes
 
 ```js
 ['a', 'b', 'c'].includes('a')
