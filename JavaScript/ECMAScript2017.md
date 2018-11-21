@@ -3,8 +3,8 @@
 `Object.keys` already existed, now we also got `Object.values` and `Object.entries`
 
 ```js
-const arr = {a: 1, b: true};
-for (let [key, value] of Object.entries(arr)) {
+const obj = {a: 1, b: true};
+for (const [key, value] of Object.entries(obj)) {
 	console.log(`${key} is ${value}`);
 }
 ```

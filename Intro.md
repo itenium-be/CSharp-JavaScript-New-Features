@@ -2,8 +2,10 @@ Intro
 =====
 
 I am Van Schandevijl Wouter. Last year I started itenium with my colleague Steven Robijns.
-itenium is an IT Consultancy specialized in .NET & JavaScript. 
+itenium is an IT Consultancy specialized in .NET & JavaScript. Hence this session :)
 
+We'll look at what has been added to JavaScript from ECMAScript 2016 and to C# from 7.1.  
+We'll also have a peek at what will be added in ECMAScript 2019 and C# 8.
 
 JavaScript
 ----------
