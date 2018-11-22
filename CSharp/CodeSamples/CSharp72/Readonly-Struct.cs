@@ -30,6 +30,8 @@ namespace CodeSamples.CSharp72
         // Compile error:
         // public string MiddleName { get; set; }
 
+        public Name(string first, string last) => (FirstName, LastName, Age) = (first, last, 10);
+
         public Name(string firstName, string lastName, int age)
         {
             FirstName = firstName;

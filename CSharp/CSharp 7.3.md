@@ -23,7 +23,7 @@ public static T TypeSafeCombine<T>(T source, T target) where T : System.Delegate
 
 // Usage
 Action logOne = () => Console.Write("1");
-Action logTen = () => Console.Wirte("10");
+Action logTen = () => Console.Write("10");
 var combined = TypeSafeCombine(addOne, addTen);
 ```
 
@@ -38,7 +38,7 @@ public class B
    }
 
    bool IsPositive = int.TryParse("5", out int nr) && nr > 0;
-   // or: bool IsPositive { get; } = int.TryParse(...)
+   // and also: bool IsPositive { get; } = int.TryParse(...)
 }
 ```
 

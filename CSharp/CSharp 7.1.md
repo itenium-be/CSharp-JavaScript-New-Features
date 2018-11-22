@@ -21,7 +21,8 @@ Func<int, bool> fn = default;
 
 # Inferred Tuples Element Names
 
-Tuples but with user-defined property names instead of `Item1`, `Item2` etc were introduced in C# 7.0.  
+Tuples but with user-defined property names instead of `Item1`, `Item2`
+etc were introduced in C# 7.0.  
 
 
 ```c#

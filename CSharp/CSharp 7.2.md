@@ -18,12 +18,14 @@ Works for binary (`0b`) and hex (`0x`) values.
 
 ```c#
 int binaryValue = 0b_0101_0101;
+int hexValue = 0x_55;
 ```
 
 
 # private protected access modifier
 
-Accessible by the containing class and in **derived classes** if they are declared in the **same assembly**.
+Accessible by the containing class and in 
+**derived classes** if they are declared in the **same assembly**.
 
 `protected internal` already existed which means accessible in  
 - Containing class
@@ -46,11 +48,7 @@ readonly struct Name
 	// Compile error:
 	// public string MiddleName { get; set; }
 
-	public Name(string firstName, string lastName)
-   {
-      FirstName = firstName;
-      LastName = lastName;
-   }
+	public Name(string first, string last) => (FirstName, LastName) = (first, last);
 }
 ```
 
@@ -69,7 +67,8 @@ void InParamExample(in int number)
 }
 ```
 
-`in` is optional, except when the method is overload as follows: `fn(int number)` and `fn(in int number)`.
+`in` is optional, except when the method is overloaded as follows:
+`fn(int number)` and `fn(in int number)`.
 
 
 ## Conditional `ref` expressions
