@@ -117,7 +117,7 @@ Match only when a number is preceded with a € but do not capture the € itsel
 
 Negative lookbehind: `(?<!a)b` (a 'b' not preceded by an 'a')
 
-Lookaheads already existed: `(?=positive)` and `(?!negative)`  
+Lookaheads already existed: `a(?=positive)` and `o(?!negative)`  
 ```js
 const people = `
 - Bob (vegetarian)
@@ -141,7 +141,7 @@ The dot (.) in regular expressions doesn't match line terminator.
 // true
 ```
 
-The `/s` (singleline) flag changes this behavior
+The `/s` (dotAll) flag changes this behavior
 ```js
 /./s.dotAll
 new RegExp('.', 's').dotAll
